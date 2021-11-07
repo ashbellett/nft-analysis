@@ -1,0 +1,4 @@
+.gitignore
+ethermore/data/
+Dockerfile
+README.md

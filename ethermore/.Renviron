@@ -1,0 +1,23 @@
+# App settings
+PORT = 5000
+
+# Folder paths
+DATA_RAW = './data/raw/'
+DATA_RESULTS = './data/results/'
+
+# Input tables
+TWITTER_SUMMARY = "follower_count_history_2021-10-27.csv"
+TWITTER_FOLLOWERS = "raw_followers_2021-10-25.csv"
+TOKEN_OWNERS = "nft_owners_2021-10-28.csv"
+TOKEN_OWNERSHIP = "owned_per_owner_2021-10-28.csv"
+TOKEN_TRANSACTIONS = "sales_history_2021-10-28.csv"
+TWITTER_TWEETS = "tweets_2021-10-25.csv"
+
+# Output tables
+TOKENS = "tokens.csv"
+MODEL_ALIGNMENT = "model_alignment.csv"
+MODEL_RACE = "model_race.csv"
+MODEL_CLASS = "model_class.csv"
+MODEL_TITLE = "model_title.csv"
+MODEL_BACKGROUND = "model_background.csv"
+MODEL_ITEM = "model_item.csv"
